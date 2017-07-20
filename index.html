@@ -2,43 +2,38 @@
 <html>
 <head>
   <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <center>
+  <img src=https://people.ucsc.edu/~svillan2/art101/image/madlibsbanner.png alt=mad-libs logo>
 <h1>Mad Libs</h1>
 <h2>The Wandering Puppy</h2>
-  <input type= "text" id="fname" onchange= 'myFunction()'>
-<p> One <span id="adjective1">    </span> day, a <span id="adjective2">    </span> puppy named <span id="name">    </span> was <span id="verbing">    </span> to the dog park. Then, he was distracted by a squirrel which caused him to <span id=verb>   </span> into a <span id=noun>   </span>
+
+  Adjective:      <input type="text" id="myText" value=>
+  <br>
+  <br>
+  Adjective:      <input type="text" id="myText2" value=>
+  <br>
+  <br>
+  Name:           <input type="text" id="myText3" value=>
+  <br>
+  <br>
+  Verb With -ing: <input type="text" id="myText4" value=>
+  <br>
+  <br>
+  Verb:           <input type="text" id="myText5" value=>
+  <br>
+  <br>
+  Noun:           <input type="text" id="myText6" value=>
+  <br>
+  <br>
+  <button onclick="speech()">Get Your Mad-Lib!</button>
+
+  <p id="para"> One <span id="adjective1"></span> day, a <span id="adjective2"></span> puppy named <span id="name"></span> was <span id="verbing"></span> to the dog park. Then, he was distracted by a squirrel which caused him to <span id=verb></span> into a <span id=noun></span> </p>
 
 
-
-  <button onclick="document.getElementById('Bio').style.display='block'>Show
 
 </center>
-</body>
-</html>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-<body>
-
-Name: <input type="text" id="myText" value="Mickey">
-
-<p id="name">Click the button to change the value of the text field.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-function myFunction() {
-    var testinput = document.getElementById("myText").value;
-    document.getElementById("name").innerHTML=testinput;
-}
-</script>
-
 </body>
 </html>
