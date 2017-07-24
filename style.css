@@ -1,0 +1,9 @@
+#para{
+  display: none;
+}
+
+body {
+  background-color: rgb(222,139,255);
+  color: rgb(75,23,255);
+  font-family: cursive;
+}
